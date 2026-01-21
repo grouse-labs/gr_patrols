@@ -63,7 +63,7 @@ Configurable Ped Patrols for FiveM! This is a paid script, available on my [Tebe
 - [DurtyFrees' Data Dumps](https://github.com/DurtyFree/gta-v-data-dumps) for the various data dumps needed for this script.
 - [PlebMasters](https://forge.plebmasters.de/) for their updated ped, vehicle and weapon viewers.
 - [Vespura's Driving Style Calculator](https://vespura.com/fivem/drivingstyle/) for the inspiration for the Driving Style Calculator.
-- mrnewb, Mintz, beauflexx & others who provided testing and feedback.
+- [MrNewb](https://github.com/MrNewb)
 
 ### Preview
 
@@ -113,6 +113,8 @@ Configurable Ped Patrols for FiveM! This is a paid script, available on my [Tebe
 - Download the latest version from your [Cfx Portal](https://portal.cfx.re/login).
 - Extract the contents of the zip file into your resources folder, into a folder which starts after your framework or;
 - Ensure the script in your `server.cfg` after your framework.
+
+**Note: Users that have old versions who wish to update to the new config format, simply place your old config in the `shared` folder and set [gr_lib's debug mode](https://github.com/grouse-labs/gr_lib#server-cfg) `true`.**
 
 ### Configuration
 
@@ -564,5 +566,6 @@ Copyright © 2026, Grouse Labs
 - v1.0.2 - Added `pedSettings.relNameOverride` and Vehicle Patrols will now chase down the player if they are in a vehicle.
 - v1.0.1 - Added Config Options for Distance Checks.
 - v1.0.0 - Initial Release
+
 
 
