@@ -1,4 +1,4 @@
-# don-patrols
+# gr_patrols
 
 Configurable Ped Patrols for FiveM! This is a paid script, available on my [Tebex](https://grouse-labs.tebex.io/).
 
@@ -566,6 +566,3 @@ Copyright © 2026, Grouse Labs
 - v1.0.2 - Added `pedSettings.relNameOverride` and Vehicle Patrols will now chase down the player if they are in a vehicle.
 - v1.0.1 - Added Config Options for Distance Checks.
 - v1.0.0 - Initial Release
-
-
-
