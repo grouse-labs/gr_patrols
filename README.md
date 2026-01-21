@@ -508,15 +508,16 @@ Copyright © 2026, Grouse Labs
 
 ### TOS
 
-[Terms of Service](https://dons-developments.tebex.io/terms)
+[Terms of Service](https://grouse-labs.tebex.io/terms)
 
 ### Support
 
-- Join the [Don's Developments discord](https://discord.gg/pmywChNQ5m).
+- Join the [Grouse Labs discord](https://discord.gg/pmywChNQ5m).
 - Open a ticket and please have your Tebex Transation ID ready 🙂.
 
 ### Changelog
 
+- v2.0.0 - Many improvements to the server AI loop, reduction in config bloat, updates to support new framework versions as well as many bugs squashed.
 - v1.4.5 - Added More Entity Checks on Players to Avoid Triggering Errors in the Server Console.
 - v1.4.4 - Update Lua Language Server comments & Fix Server Console Error Spam due to Unknown Entity.
 - v1.4.3 - Various linting Updates, Added New Loot Ped Feature and Custom Loot Tables per Ped and More Fixes to Patrols Starting on ESX.
@@ -563,4 +564,5 @@ Copyright © 2026, Grouse Labs
 - v1.0.2 - Added `pedSettings.relNameOverride` and Vehicle Patrols will now chase down the player if they are in a vehicle.
 - v1.0.1 - Added Config Options for Distance Checks.
 - v1.0.0 - Initial Release
+
 
