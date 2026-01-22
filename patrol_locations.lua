@@ -1242,12 +1242,12 @@ return {
 			},
 			patrol = {
 				{
-          {coords = vector3(2220.17, 5626.11, 55.08), heading = 96.24, time = 7500},
-          {coords = vector3(2197.41, 5611.88, 53.6), heading = 323.59, time = 7500},
-          {coords = vector3(2197.9, 5585.6, 53.66), heading = 251.47, time = 7500},
-          {coords = vector3(2202.77, 5555.21, 54.09), heading = 351.83, time = 7500},
-          {coords = vector3(2238.05, 5576.23, 54.02), heading = 85.72, time = 7500},
-          {coords = vector3(2236.59, 5610.99, 54.71), heading = 273.5, time = 7500}
+          {coords = vector3(2220.17, 5626.11, 55.08), heading = 96.24, time = 7500, scenario = 'WORLD_HUMAN_GUARD_PATROL'},
+          {coords = vector3(2197.41, 5611.88, 53.6), heading = 323.59, time = 7500, scenario = 'WORLD_HUMAN_GUARD_PATROL'},
+          {coords = vector3(2197.9, 5585.6, 53.66), heading = 251.47, time = 7500, scenario = 'WORLD_HUMAN_GUARD_PATROL'},
+          {coords = vector3(2202.77, 5555.21, 54.09), heading = 351.83, time = 7500, scenario = 'WORLD_HUMAN_GUARD_PATROL'},
+          {coords = vector3(2238.05, 5576.23, 54.02), heading = 85.72, time = 7500, scenario = 'WORLD_HUMAN_GUARD_PATROL'},
+          {coords = vector3(2236.59, 5610.99, 54.71), heading = 273.5, time = 7500, scenario = 'WORLD_HUMAN_GUARD_PATROL'}
 				},
 			},
 		},

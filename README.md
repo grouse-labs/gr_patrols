@@ -20,7 +20,7 @@ Configurable Ped Patrols for FiveM! This is a paid script, available on my [Tebe
 
 ## Table of Contents
 
-- [don-patrols](#don-patrols)
+- [gr\_patrols](#gr_patrols)
   - [Features](#features)
   - [Table of Contents](#table-of-contents)
     - [Credits](#credits)
@@ -519,6 +519,7 @@ Copyright © 2026, Grouse Labs
 
 ### Changelog
 
+- v2.0.1 - Fix redundant script name error and added a fix to ensure roaming patrols retreive their task.
 - v2.0.0 - Many improvements to the server AI loop, reduction in config bloat, updates to support new framework versions as well as many bugs squashed.
 - v1.4.5 - Added More Entity Checks on Players to Avoid Triggering Errors in the Server Console.
 - v1.4.4 - Update Lua Language Server comments & Fix Server Console Error Spam due to Unknown Entity.
