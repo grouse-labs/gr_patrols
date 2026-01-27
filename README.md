@@ -519,6 +519,7 @@ Copyright © 2026, Grouse Labs
 
 ### Changelog
 
+- v2.0.2 - Fixed guards dropping task/getting stuck in scenario after combat and ensured patrols are properly released and deleted when removed by the respawn timer.
 - v2.0.1 - Fix redundant script name error and added a fix to ensure roaming patrols retreive their task.
 - v2.0.0 - Many improvements to the server AI loop, reduction in config bloat, updates to support new framework versions as well as many bugs squashed.
 - v1.4.5 - Added More Entity Checks on Players to Avoid Triggering Errors in the Server Console.
