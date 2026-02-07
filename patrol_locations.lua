@@ -68,6 +68,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 52,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 100,
@@ -78,7 +84,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 14, 15, 22, 42, 44, 46},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -165,6 +171,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 52,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 100,
@@ -175,7 +187,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 14, 15, 22, 42, 44, 46},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -292,6 +304,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 52,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 100,
@@ -307,7 +325,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 14, 15, 22, 42, 44, 46},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -444,6 +462,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 52,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 100,
@@ -454,7 +478,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 14, 15, 22, 42, 44, 46},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -591,6 +615,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 52,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 100,
@@ -601,7 +631,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 14, 15, 22, 42, 44, 46},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -831,6 +861,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 52,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 100,
@@ -846,7 +882,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 14, 15, 22, 42, 44, 46},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -1096,6 +1132,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 52,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 100,
@@ -1111,7 +1153,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 14, 15, 22, 42, 44, 46},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -1191,6 +1233,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 52,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 100,
@@ -1206,7 +1254,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 14, 15, 22, 42, 44, 46, 53, 80, 85},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 313, 72, 456, 210, 213, 347, 227, 364, 287, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -1237,7 +1285,7 @@ return {
 		['Routes'] = {
 			guard = {
 				{coords = vec3(2221.260010, 5614.620117, 54.869999), heading = 113.48, scenario = 'WORLD_HUMAN_STUPOR'},
-				{coords = vec3(2229.870117, 5574.939941, 53.759998), heading = 226.39, scenario = 'WORLD_HUMAN_DRUG_FIELD_WORKERS_RAKE'},
+				{coords = vec3(2229.870117, 5574.939941, 53.759998), heading = 226.39, scenario = 'WORLD_HUMAN_DRUG_FIELD_WORKERS_WEEDING'},
 				{coords = vec3(2217.739990, 5578.890137, 53.759998), heading = 24.41, scenario = 'WORLD_HUMAN_DRUG_FIELD_WORKERS_WEEDING'},
 			},
 			patrol = {
@@ -1356,6 +1404,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = false
+		},
 		['CombatAI'] = {
 			ability = 60,
 			accuracy = 40,
@@ -1366,7 +1420,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 46, 61},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -1395,7 +1449,7 @@ return {
 		},
 		['Routes'] = {
 			guard = {
-				{coords = vec3(2435.669922, 4968.850098, 42.349998), heading = 316.42, scenario = 'WORLD_HUMAN_DRUG_PROCESSORS_COKE'},
+				{coords = vec3(2435.669922, 4968.850098, 42.349998), heading = 136.42, scenario = 'Standing'},
 				{coords = vec3(2432.580078, 4960.120117, 46.820000), heading = 318.32, scenario = 'WORLD_HUMAN_GUARD_STAND_CLUBHOUSE'},
 			},
 			patrol = {
@@ -1598,6 +1652,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = false
+		},
 		['CombatAI'] = {
 			ability = 60,
 			accuracy = 40,
@@ -1613,7 +1673,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 46, 61},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 89, 435, 72, 201, --[[210,]] 213, 227, 364, 287, 372, 246, 397, 315}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -1765,6 +1825,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 3,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 80,
 			accuracy = 60,
@@ -1780,7 +1846,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 14, 15, 22, 46},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -1808,8 +1874,7 @@ return {
 		},
 		['Routes'] = {
 			guard = {
-				{coords = vec3(1414.069946, 1138.140015, 114.330002), heading = 258.63, scenario = 'WORLD_HUMAN_GARDENER_LEAF_BLOWER'},
-				{coords = vec3(1382.750000, 1168.569946, 114.480003), heading = 312.77, scenario = 'WORLD_HUMAN_GARDENER_PLANT'},
+				{coords = vec3(1382.750000, 1168.569946, 114.480003), heading = 312.77, scenario = 'WORLD_HUMAN_DRUG_FIELD_WORKERS_WEEDING'},
 			},
 			patrol = {
 				{
@@ -1979,6 +2044,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = false
+		},
 		['CombatAI'] = {
 			ability = 80,
 			accuracy = 60,
@@ -1994,7 +2065,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 21, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -2023,7 +2094,7 @@ return {
 		},
 		['Routes'] = {
 			guard = {
-				{coords = vec3(4428.529785, -4451.240234, 4.330000), heading = 341.6, scenario = 'WORLD_HUMAN_CLIPBOARD_FACILITY'},
+				{coords = vec3(4428.529785, -4451.240234, 4.330000), heading = 341.6, scenario = 'WORLD_HUMAN_INSPECT_STAND'},
 				{coords = vec3(4424.359863, -4452.149902, 4.330000), heading = 22.38, scenario = 'WORLD_HUMAN_INSPECT_STAND'},
 				{coords = vec3(4446.580078, -4451.529785, 7.300000), heading = 111.5, scenario = 'WORLD_HUMAN_GUARD_PATROL'},
 			},
@@ -2105,6 +2176,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -2115,7 +2192,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -2212,6 +2289,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -2222,7 +2305,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -2252,7 +2335,6 @@ return {
 		['Routes'] = {
 			guard = {
 				{coords = vec3(5035.410156, -4631.620117, 4.900000), heading = 302.34, scenario = 'WORLD_HUMAN_SMOKING_POT'},
-				{coords = vec3(5092.689941, -4683.020020, 2.410000), heading = 256.51, scenario = 'WORLD_HUMAN_DRUG_PROCESSORS_COKE'},
 				{coords = vec3(5173.479980, -4590.069824, 3.730000), heading = 167.78, scenario = 'WORLD_HUMAN_LEANING'},
 				{coords = vec3(5173.569824, -4591.740234, 3.760000), heading = 8.1, scenario = 'WORLD_HUMAN_HANG_OUT_STREET'},
 			},
@@ -2470,6 +2552,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -2485,7 +2573,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -2606,6 +2694,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -2616,7 +2710,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -2646,8 +2740,8 @@ return {
 		['Routes'] = {
 			guard = {
 				{coords = vec3(5465.810059, -5238.439941, 30.120001), heading = 8.69, scenario = 'WORLD_HUMAN_HAMMERING'},
-				{coords = vec3(5320.200195, -5224.879883, 32.360001), heading = 107.67, scenario = 'WORLD_HUMAN_DRUG_FIELD_WORKERS_RAKE'},
-				{coords = vec3(5309.589844, -5288.830078, 33.900002), heading = 39.67, scenario = 'WORLD_HUMAN_DRUG_FIELD_WORKERS_RAKE'},
+				{coords = vec3(5320.200195, -5224.879883, 32.360001), heading = 107.67, scenario = 'WORLD_HUMAN_DRUG_FIELD_WORKERS_WEEDING'},
+				{coords = vec3(5309.589844, -5288.830078, 33.900002), heading = 39.67, scenario = 'WORLD_HUMAN_DRUG_FIELD_WORKERS_WEEDING'},
 			},
 			patrol = {
 				{
@@ -2815,6 +2909,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -2830,7 +2930,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -2927,6 +3027,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -2937,7 +3043,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -2965,10 +3071,10 @@ return {
 			debug = true
 		},
 		['Routes'] = {
-			guard = {
-				{coords = vec3(5187.330078, -5147.790039, 3.620000), heading = 177.44, scenario = 'WORLD_HUMAN_DRUG_PROCESSORS_WEED', chair = '1894601399'},
-				{coords = vec3(5184.160156, -5152.100098, 3.600000), heading = 1.74, scenario = 'WORLD_HUMAN_DRUG_PROCESSORS_WEED', chair = '1894601399'},
-			},
+			-- guard = {
+			-- 	{coords = vec3(5187.330078, -5147.790039, 3.620000), heading = 177.44, scenario = 'WORLD_HUMAN_DRUG_PROCESSORS_WEED', chair = '1894601399'},
+			-- 	{coords = vec3(5184.160156, -5152.100098, 3.600000), heading = 1.74, scenario = 'WORLD_HUMAN_DRUG_PROCESSORS_WEED', chair = '1894601399'},
+			-- },
 			patrol = {
 				{
 					{coords = vec3(5147.790039, -5056.029785, 20.389999), heading = 192.62, time = 25000, scenario = 'WORLD_HUMAN_GUARD_PATROL'},
@@ -2991,57 +3097,57 @@ return {
 			},
 		},
 		['Peds'] = {
-			guard = {
-				{
-					['Base'] = {
-						model = 's_m_m_drugprocess_01',
-						weapon = 'weapon_machete',
-						health = 100,
-						armour = 0,
-						ammo = nil,
-						brandish = false,
-						combat = {},
-						config  = {},
-						reset = {},
-						Loot = {
-							{item_name = 'weapon_machete', amount = 1, chance = 100},
-							{item_name = 'weed_whitewidow', amount = {min = 5, max = 10}, chance = 100},
-						}
-					},
-					['Range'] = {
-						lod = 200.0,
-						id = 100.0,
-						seeing = 100.0,
-						peripheral = 100.0,
-						hearing = 100.0,
-						shout = 100.0
-					}
-				}, {
-					['Base'] = {
-						model = 's_m_m_drugprocess_01',
-						weapon = 'weapon_machete',
-						health = 100,
-						armour = 0,
-						ammo = nil,
-						brandish = false,
-						combat = {},
-						config  = {},
-						reset = {},
-						Loot = {
-							{item_name = 'weapon_machete', amount = 1, chance = 100},
-							{item_name = 'weed_whitewidow', amount = {min = 5, max = 10}, chance = 100},
-						}
-					},
-					['Range'] = {
-						lod = 200.0,
-						id = 100.0,
-						seeing = 100.0,
-						peripheral = 100.0,
-						hearing = 100.0,
-						shout = 100.0
-					}
-				}
-			},
+			-- guard = {
+			-- 	{
+			-- 		['Base'] = {
+			-- 			model = 's_m_m_drugprocess_01',
+			-- 			weapon = 'weapon_machete',
+			-- 			health = 100,
+			-- 			armour = 0,
+			-- 			ammo = nil,
+			-- 			brandish = false,
+			-- 			combat = {},
+			-- 			config  = {},
+			-- 			reset = {},
+			-- 			Loot = {
+			-- 				{item_name = 'weapon_machete', amount = 1, chance = 100},
+			-- 				{item_name = 'weed_whitewidow', amount = {min = 5, max = 10}, chance = 100},
+			-- 			}
+			-- 		},
+			-- 		['Range'] = {
+			-- 			lod = 200.0,
+			-- 			id = 100.0,
+			-- 			seeing = 100.0,
+			-- 			peripheral = 100.0,
+			-- 			hearing = 100.0,
+			-- 			shout = 100.0
+			-- 		}
+			-- 	}, {
+			-- 		['Base'] = {
+			-- 			model = 's_m_m_drugprocess_01',
+			-- 			weapon = 'weapon_machete',
+			-- 			health = 100,
+			-- 			armour = 0,
+			-- 			ammo = nil,
+			-- 			brandish = false,
+			-- 			combat = {},
+			-- 			config  = {},
+			-- 			reset = {},
+			-- 			Loot = {
+			-- 				{item_name = 'weapon_machete', amount = 1, chance = 100},
+			-- 				{item_name = 'weed_whitewidow', amount = {min = 5, max = 10}, chance = 100},
+			-- 			}
+			-- 		},
+			-- 		['Range'] = {
+			-- 			lod = 200.0,
+			-- 			id = 100.0,
+			-- 			seeing = 100.0,
+			-- 			peripheral = 100.0,
+			-- 			hearing = 100.0,
+			-- 			shout = 100.0
+			-- 		}
+			-- 	}
+			-- },
 			patrol = {
 				{
 					['Base'] = {
@@ -3118,6 +3224,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -3128,7 +3240,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 53, 61, 80},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -3374,6 +3486,12 @@ return {
 				}
 			}
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -3389,7 +3507,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 53, 61, 80},
-			config = {4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -3485,6 +3603,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -3495,7 +3619,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -3616,6 +3740,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -3626,7 +3756,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,
@@ -3712,6 +3842,12 @@ return {
 				}
 			},
 		},
+		['Blips'] = {
+			enabled = true,
+			colour = 1,
+			cone = true,
+			forced = true
+		},
 		['CombatAI'] = {
 			ability = 100,
 			accuracy = 80,
@@ -3722,7 +3858,7 @@ return {
 		},
 		['PedAI'] = {
 			combat = {5, 13, 14, 22, 46, 50, 61},
-			config = {4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
+			config = {2, 4, 132, 137, 392, 14, 16, 401, 275, 152, 167, 433, 435, 72, 201, 456, 210, 213, 227, 364, 287, 113, 372, 246, 315, 397}
 		},
 		['PedProofs'] = {
 			injured = true,

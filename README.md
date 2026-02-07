@@ -1,6 +1,12 @@
 # gr_patrols
 
+<a href="https://www.youtube.com/watch?v=3FX-CfZ_oo8" target="_blank">
+  <img src="https://github.com/grouse-labs/.github/blob/main/profile/assets/patrols_thumbnail.png?raw=true" style="width:640px;height:360px;" alt="Patrols Thumbnail">
+</a>
+
 Configurable Ped Patrols for FiveM! This is a paid script, available on my [Tebex](https://grouse-labs.tebex.io/).
+
+---
 
 ## Features
 
@@ -46,6 +52,7 @@ Configurable Ped Patrols for FiveM! This is a paid script, available on my [Tebe
         - [Ped Vehicle Settings](#ped-vehicle-settings)
       - [Vehicle Config](#vehicle-config)
         - [Base Vehicle Settings](#base-vehicle-settings)
+      - [Blips](#blips)
       - [Combat AI](#combat-ai)
       - [Vehicle AI](#vehicle-ai)
       - [Ped AI](#ped-ai)
@@ -210,7 +217,7 @@ guard = {
 
 - `coords: vector3`
 - `heading: float`
-- `scenario: string` - [Scenarios](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/scenariosCompact.json)
+- `scenario: string` - Please test the scenario you want to use before adding it, as not all scenarios work with this script. The most commonly used scenarios that are known to work are some `'WORLD_HUMAN_..` & `'PROP_HUMAN_..` scenarios, but others may work as well. You can find a list of [scenarios here](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/scenariosCompact.json)
 - `chair: number|string?` - nil if the guard is not sitting, otherwise the hash or name of the [chair prop](https://forge.plebmasters.de/objects?search=chair)
 
 ##### Adding Ped Patrols
@@ -401,6 +408,22 @@ vehicle = {
 - `plate: string` - Character limit of `8`.
 - `passengers: integer|false?` if a number, will clone the the ped base data for each passenger
 
+#### Blips
+
+```lua
+['Blips'] = {
+  enabled = true,
+  colour = 1,
+  cone = true,
+  forced = false
+},
+```
+
+- `enabled: boolean` - If true, patrols will have blips visible on the map
+- `colour: integer` - The colour of the blip, [Blip Colours](https://docs.fivem.net/docs/game-references/blips/#blip-colors)
+- `cone: boolean` - If true, the blip will show a cone indicating the direction the ped is facing
+- `forced: boolean` - If true, the blip will be visible even when the player is outside of the blip's normal visibility range
+
 #### Combat AI
 
 ```lua
@@ -514,11 +537,13 @@ Copyright © 2026, Grouse Labs
 
 ### Support
 
-- Join the [Grouse Labs discord](https://discord.gg/pmywChNQ5m).
+- Join the [Grouse Labs 🐀 discord](https://discord.gg/pmywChNQ5m).
 - Open a ticket and please have your Tebex Transation ID ready 🙂.
 
 ### Changelog
 
+- v2.0.4 - Added blips back to patrols, completed the Make Guards Agressive Again refactor and added a fix to ensure patrols created via export are properly synced to all players.
+- v2.0.3 - Perfomance improvements to client cpu time, removed old task functions (facilitating making guards smart again), improved vehicle driver fallback mechanism to include all passengers and fixed a minor server side error for a non-existant table.
 - v2.0.2 - Fixed guards dropping task/getting stuck in scenario after combat and ensured patrols are properly released and deleted when removed by the respawn timer.
 - v2.0.1 - Fix redundant script name error and added a fix to ensure roaming patrols retreive their task.
 - v2.0.0 - Many improvements to the server AI loop, reduction in config bloat, updates to support new framework versions as well as many bugs squashed.
