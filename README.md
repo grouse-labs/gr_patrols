@@ -1,33 +1,76 @@
-# gr_patrols
+# gr_patrols — Advanced AI Patrol System for FiveM
 
-<a href="https://www.youtube.com/watch?v=3FX-CfZ_oo8" target="_blank">
+<a href="https://youtu.be/HnPzlaKyBp8" target="_blank">
   <img src="https://github.com/grouse-labs/.github/blob/main/profile/assets/patrols_thumbnail.png?raw=true" style="width:640px;height:360px;" alt="Patrols Thumbnail">
 </a>
 
-Configurable Ped Patrols for FiveM! This is a paid script, available on my [Tebex](https://grouse-labs.tebex.io/).
+---
+
+**gr_patrols** is a high-performance, fully server-side patrol system designed to bring believable AI presence to your FiveM server. Create guarded zones, roaming patrols, vehicle convoys, aerial units, and maritime patrols that intelligently react to players, jobs, and hostile actions.
+
+Built with scalability in mind, patrols only activate when players are nearby, remain persistent across multiple players, and safely go dormant when no one is around — keeping performance tight even on large servers.
+
+Every detail is configurable, from AI combat behaviour and perception ranges to vehicles, weapons, loot tables, and faction relationships.
 
 ---
 
-## Features
+### Key Features
 
-- Optimised code, resting resmon of 0.00ms and Scales ~0.01ms per Entity at time of Creation.
-- Configure Different Areas of Patrol
-- 23 Locations Pre-Configured // Add as many as you want!
-- Choose Between 5 Patrol Types, Guarding, Walking, Driving, Flying and Boating.
-- Patrols are Highly Configurable, with Global Settings for Cooldown, Spawn/Despawn Distances, Death Percentage and more.
-- Patrols stay Tasked between Players and will go Dormant whilst no Players are nearby.
-- Peds are Configurable, with Unique Settings for each Ped, including Health, Armour, Weapons, Ammo and their Model.
-- Ability to Loot the Patrol Peds, and Set Custom Loot Tables for each Ped.
-- Guards will Detect if They've Left their Guard Position and will Return to it.
-- Vehicles are Configurable, with Unique Settings for each Vehicle, including Health, Plate, Lock Type and their Model.
-- Vehicle Peds have the Ability to Control Mounted Turrets, and Vehicles have a Passenger Limit of 10 (if they can fit it!).
-- Patrols have the Ability to Determine if a Players' Job is a Threat to them, and will Respond Accordingly.
-- Patrols are Created Server-Side, and are Synced to all Players.
+* **Extremely Optimised**
+
+  * 0.00ms idle resmon
+  * ~0.01ms per entity at creation
+  * Designed for large-scale patrol networks
+
+* **Multiple Patrol Types**
+
+  * Guards, foot patrols, vehicles, aircraft, and boats
+  * Mix patrol types per location
+
+* **Area-Based Patrol Zones**
+
+  * Unlimited configurable locations
+  * Independent cooldowns, spawn/despawn distances, and reset logic
+  * 23 pre-configured locations included
+
+* **Advanced AI Behaviour**
+
+  * Fine-grained control over combat ability, accuracy, alertness, movement, and engagement range
+  * Vehicle AI formations and aggressiveness
+  * Guards return to post if displaced
+
+* **Deep Ped & Vehicle Customisation**
+
+  * Per-ped configuration: model, health, armour, weapons, ammo, perception ranges
+  * Fully configurable vehicles with passenger limits and turret support
+  * Supports land, air, and sea patrols
+
+* **Job & Relationship Awareness**
+
+  * Patrols evaluate player jobs as friendly, neutral, or hostile
+  * Configurable relationship tiers and faction overrides
+
+* **Loot & Inventory Integration**
+
+  * Custom loot tables per ped
+  * Supports fixed or randomised drops with chance control
+  * Works with popular inventory systems
+
+* **Server-Side & Fully Synced**
+
+  * Patrols are created server-side
+  * Synced to all players for consistent behaviour
+
+---
+
+Perfect for **military bases, high-security compounds, restricted zones, RP servers, PvE content, and dynamic world building**.
+
+---
 
 ## Table of Contents
 
-- [gr\_patrols](#gr_patrols)
-  - [Features](#features)
+- [gr\_patrols — Advanced Patrol \& AI System for FiveM](#gr_patrols--advanced-patrol--ai-system-for-fivem)
+    - [Key Features](#key-features)
   - [Table of Contents](#table-of-contents)
     - [Credits](#credits)
     - [Preview](#preview)
@@ -74,9 +117,7 @@ Configurable Ped Patrols for FiveM! This is a paid script, available on my [Tebe
 
 ### Preview
 
-- [Don Patrols YT Preview](https://www.youtube.com/watch?v=3FX-CfZ_oo8)
-- [v1.4 Boat Patrol](https://streamable.com/0lbmex)
-- [v1.4 Helicopter Patrol](https://streamable.com/a9jue7)
+- [Youtube Preview](https://youtu.be/HnPzlaKyBp8)
 
 ### Installation
 
