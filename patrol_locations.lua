@@ -6,7 +6,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = false, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -109,7 +109,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = false, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -212,7 +212,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = false, patrol = true, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -350,7 +350,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = false, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -503,7 +503,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = false, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -656,7 +656,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -907,7 +907,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -1178,7 +1178,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = false, patrol = false, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -1279,7 +1279,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -1444,7 +1444,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -1697,7 +1697,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = false, patrol = true, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -1869,7 +1869,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -2089,7 +2089,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = false, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -2216,7 +2216,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -2329,7 +2329,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -2597,7 +2597,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -2734,7 +2734,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -2954,7 +2954,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -3067,7 +3067,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -3264,7 +3264,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = false, vehicle = true},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -3531,7 +3531,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -3643,7 +3643,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = true, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {
@@ -3780,7 +3780,7 @@ return {
 			cooldown = 15,
 			enabled = {guards = true, patrol = false, vehicle = false},
 			distances = {spawn = 500.0, despawn = 1000.0},
-			deaths = {percent = 80.0, resets = false},
+			deaths = {percent = 80.0, resets = false, vehicles = false},
 			debug = true
 		},
 		['Routes'] = {

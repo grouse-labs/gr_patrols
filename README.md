@@ -14,52 +14,44 @@ Every detail is configurable, from AI combat behaviour and perception ranges to 
 
 ---
 
-### Key Features
+## Key Features
 
-* **Extremely Optimised**
+- ⚡ **Extremely Optimised**
+  - 0.00ms idle resmon
+  - ~0.01ms per entity at creation
+  - Designed for large-scale patrol networks
 
-  * 0.00ms idle resmon
-  * ~0.01ms per entity at creation
-  * Designed for large-scale patrol networks
+- 🚔 **Multiple Patrol Types**
+  - Guards, foot patrols, vehicles, aircraft, and boats
+  - Mix patrol types per location
 
-* **Multiple Patrol Types**
+- 📍 **Area-Based Patrol Zones**
+  - Unlimited configurable locations
+  - Independent cooldowns, spawn/despawn distances, and reset logic
+  - 23 pre-configured locations included
 
-  * Guards, foot patrols, vehicles, aircraft, and boats
-  * Mix patrol types per location
+- 🧠 **Advanced AI Behaviour**
+  - Fine-grained control over combat ability, accuracy, alertness, movement, and engagement range
+  - Vehicle AI formations and aggressiveness
+  - Guards return to post if displaced
 
-* **Area-Based Patrol Zones**
+- 🎭 **Deep Ped & Vehicle Customisation**
+  - Per-ped configuration: model, health, armour, weapons, ammo, perception ranges
+  - Fully configurable vehicles with passenger limits and turret support
+  - Supports land, air, and sea patrols
 
-  * Unlimited configurable locations
-  * Independent cooldowns, spawn/despawn distances, and reset logic
-  * 23 pre-configured locations included
+- 🤝 **Job & Relationship Awareness**
+  - Patrols evaluate player jobs as friendly, neutral, or hostile
+  - Configurable relationship tiers and faction overrides
 
-* **Advanced AI Behaviour**
+- 💰 **Loot & Inventory Integration**
+  - Custom loot tables per ped
+  - Supports fixed or randomised drops with chance control
+  - Works with popular inventory systems
 
-  * Fine-grained control over combat ability, accuracy, alertness, movement, and engagement range
-  * Vehicle AI formations and aggressiveness
-  * Guards return to post if displaced
-
-* **Deep Ped & Vehicle Customisation**
-
-  * Per-ped configuration: model, health, armour, weapons, ammo, perception ranges
-  * Fully configurable vehicles with passenger limits and turret support
-  * Supports land, air, and sea patrols
-
-* **Job & Relationship Awareness**
-
-  * Patrols evaluate player jobs as friendly, neutral, or hostile
-  * Configurable relationship tiers and faction overrides
-
-* **Loot & Inventory Integration**
-
-  * Custom loot tables per ped
-  * Supports fixed or randomised drops with chance control
-  * Works with popular inventory systems
-
-* **Server-Side & Fully Synced**
-
-  * Patrols are created server-side
-  * Synced to all players for consistent behaviour
+- 🌐 **Server-Side & Fully Synced**
+  - Patrols are created server-side
+  - Synced to all players for consistent behaviour
 
 ---
 
@@ -69,18 +61,17 @@ Perfect for **military bases, high-security compounds, restricted zones, RP serv
 
 ## Table of Contents
 
-- [gr\_patrols — Advanced Patrol \& AI System for FiveM](#gr_patrols--advanced-patrol--ai-system-for-fivem)
-    - [Key Features](#key-features)
+- [gr\_patrols — Advanced AI Patrol System for FiveM](#gr_patrols--advanced-ai-patrol-system-for-fivem)
+  - [Key Features](#key-features)
   - [Table of Contents](#table-of-contents)
     - [Credits](#credits)
     - [Preview](#preview)
     - [Installation](#installation)
       - [Dependencies](#dependencies)
         - [Grouse](#grouse)
-        - [Frameworks](#frameworks)
-        - [Inventories](#inventories)
-        - [Targetting](#targetting)
+        - [Server Specific](#server-specific)
       - [Initial Setup](#initial-setup)
+    - [Exports](#exports)
     - [Configuration](#configuration)
       - [Annotations](#annotations)
         - [Usage (VS Code)](#usage-vs-code)
@@ -117,42 +108,38 @@ Perfect for **military bases, high-security compounds, restricted zones, RP serv
 
 ### Preview
 
-- [Youtube Preview](https://youtu.be/HnPzlaKyBp8)
+- [YouTube Preview](https://youtu.be/HnPzlaKyBp8)
 
 ### Installation
 
 #### Dependencies
 
-##### Grouse
-
 **This script requires the following scripts to be installed:**
 
-- [gr_lib](https://github.com/grouse-labs/gr_lib)
-- [bridge](https://github.com/grouse-labs/bridge)
-<!-- - [gr_blips](https://github.com/grouse-labs/gr_blips) -->
+##### Grouse
 
-##### Frameworks
+- [gr_lib](https://github.com/grouse-labs/gr_lib/releases/latest)
+- [bridge](https://github.com/grouse-labs/bridge/releases/latest)
 
-**Depending on your Framework, you will need one of the following dependencies:**
+##### Server Specific
 
-- [qb-core](https://github.com/qbcore-framework/qb-core)
-- [es_extended](https://github.com/esx-framework/esx_core)
-- [qbx_core](https://github.com/Qbox-project/qbx_core)
+| Framework   | Callback | Target    | Notify      |
+| ----------- | -------- | --------- | ----------- |
+| qb-core     | ox_lib   | ox_target | qb-core     |
+| es_extended | gr_lib   | qb-target | es_extended |
+| qbx_core    |          |           | qbx_core    |
 
-##### Inventories
-
-**Depending on your Inventory, you will need one of the following dependencies:**
-
-- [qb-inventory](https://github.com/qbcore-framework/qb-inventory)
-- [es_extended](https://github.com/esx-framework/esx_core)
-- [ox_inventory](https://github.com/overextended/ox_inventory)
-
-##### Targetting
-
-**Depending on your Targetting system, you will need one of the following dependencies:**
-
-- [ox_target](https://github.com/overextended/ox_target)
-- [qb-target](https://github.com/qbcore-framework/qb-target)
+| Resource                                                                      | Version |
+| :---------------------------------------------------------------------------- | :-----: |
+| [qb-core](https://github.com/qbcore-framework/qb-core)                        | 1.3.0   |
+| [es_extended](https://github.com/esx-framework/esx_core)                      | 1.13.4  |
+| [qbx_core](https://github.com/Qbox-project/qbx_core)                          | 1.23.0  |
+| [ox_lib](https://github.com/CommunityOx/ox_lib)                               | 3.30.6  |
+| [gr_lib](https://github.com/grouse-labs/gr_lib)                               | 1.1.3   |
+| [ox_inventory](https://github.com/CommunityOx/ox_inventory)                   | 2.44.8  |
+| [qb-inventory](https://github.com/qbcore-framework/qb-inventory)              | 2.0.0   |
+| [ox_target](https://github.com/CommunityOx/ox_target)                         | 1.17.2  |
+| [qb-target](https://github.com/qbcore-framework/qb-target)                    | 5.5.0   |
 
 #### Initial Setup
 
@@ -163,6 +150,47 @@ Perfect for **military bases, high-security compounds, restricted zones, RP serv
 - Ensure the script in your `server.cfg` after your framework.
 
 **Note: Users that have old versions who wish to update to the new config format, simply place your old config in the `shared` folder and set [gr_lib's debug mode](https://github.com/grouse-labs/gr_lib#server-cfg) `true`.**
+
+### Exports
+
+All exports are server-side, method suggestions are enabled via [annotations](#annotations).
+
+```lua
+---@param settings CPatrolConfig
+---@return integer index
+function exports.gr_patrols:createpatrol(settings) end
+
+---@return CPatrolConfig[]
+function exports.gr_patrols:getpatrols() end
+
+---@param index integer
+---@return CPatrolConfig
+function exports.gr_patrols:getpatrol(index) end
+
+---@param coords vector3
+---@return integer index, number dist
+function exports.gr_patrols:getclosest(coords) end
+
+---@param index integer
+---@return boolean
+function exports.gr_patrols:ispatrolactive(index) end
+
+---@param index integer
+---@param delete boolean?
+function exports.gr_patrols:clearpatrol(index, delete) end
+
+---@param index integer Location Index
+---@param _type 'guard'|'patrol'|'vehicle' Type of patrol
+---@param patrol integer Patrol Index
+---@return {netID: integer, src: integer, alive: boolean, searched: boolean, model: number, weapon: number}[]|table peds
+function exports.gr_patrols:getpatrolpeds(index, _type, patrol) end
+
+---@param index integer Location Index
+---@param _type 'guard'|'patrol'|'vehicle' Type of patrol
+---@param patrol integer Patrol Index
+---@return {netID: integer, src: integer, model: integer, class: string, driver: integer}|table vehicle
+function exports.gr_patrols:getpatrolvehicle(index, _type, patrol) end
+```
 
 ### Configuration
 
@@ -192,7 +220,7 @@ return {
       cooldown = 15,
       enabled = {guards = true, patrol = false, vehicle = false},
       distances = {spawn = 500.0, despawn = 1000.0},
-      deaths = {percent = 80.0, resets = false},
+      deaths = {percent = 80.0, resets = false, vehicles = false},
       debug = true
     },
     ['Routes'] = {
@@ -230,9 +258,10 @@ return {
   - `cooldown: integer` - Time in minutes before patrol will attempt to respawn
   - `enabled: {guards: boolean?, patrol: boolean?, vehicle: boolean?}`
   - `distances: {spawn: number, despawn: number}`
-  - `deaths: {percent: number, resets: boolean}`
+  - `deaths: {percent: number, resets: boolean, vehicles: boolean}`
     - `percent: number` - The percentage of peds that if killed, will cause the patrol to flee from the player.
-    - `resets: boolean` - If true, killing the above percentage of peds will cause the patrol to reset, opposed to waitng for the cooldown timer.
+    - `resets: boolean` - If true, killing the above percentage of peds will cause the patrol to reset, opposed to waiting for the cooldown timer.
+    - `vehicles: boolean` - If true, killing the driver and passengers will delete the vehicle, opposed to waiting until no players are in scope.
 
 **NOTE**: Entities in FiveM (and GTA as a whole) have [scope](https://docs.fivem.net/docs/scripting-reference/onesync/#whats-culling); that is, a distance of which players need to be within to know of it's existence. By default this is 424 units from the entity, `Data.distances.despawn` will allow players to create entities outside of this scope, so this should be used with caution as it can cause performance issues and unexpected behaviour.
   
@@ -583,6 +612,7 @@ Copyright © 2026, Grouse Labs
 
 ### Changelog
 
+- v2.0.5 - Vehicle removal is configurable (meaning playing can reappropiate them!), exposed more exports to use in other scripts and completed the locale with all debug prints.
 - v2.0.4 - Added blips back to patrols, completed the Make Guards Agressive Again refactor and added a fix to ensure patrols created via export are properly synced to all players.
 - v2.0.3 - Perfomance improvements to client cpu time, removed old task functions (facilitating making guards smart again), improved vehicle driver fallback mechanism to include all passengers and fixed a minor server side error for a non-existant table.
 - v2.0.2 - Fixed guards dropping task/getting stuck in scenario after combat and ensured patrols are properly released and deleted when removed by the respawn timer.
